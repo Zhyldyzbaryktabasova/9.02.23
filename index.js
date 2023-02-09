@@ -49,3 +49,35 @@ function countdown(a, b){
 }
 countdown(10, 5);
 countdown(10, -10)
+
+function countup(a ,b) {
+  for (let i = a; i<= b; i++) {
+    console.log(i);
+  }
+}
+count (5, 10);
+count(10, 5);
+
+function count (a, b) {
+  if ( a <b) {
+    countup (a,b);
+  }
+  else {
+    countdown (a,b);
+  }
+}
+
+
+let names = ["Aidai","Bakyt","Joldosh"];
+
+for (let i = 0; i < names.length;  i++) {
+  console.log("Hi,they are" + names [i] + ".Nice.");
+}
+
+
+let imya = ["Joldosh","Bakyt","Aidai"];
+
+ for (let i = imya.length - 1; i >= 0 ; i--) {
+  console.log("Hi"+imya[i] + "Nice");
+ }
+
