@@ -81,3 +81,9 @@ let imya = ["Joldosh","Bakyt","Aidai"];
   console.log("Hi"+imya[i] + "Nice");
  }
 
+
+ //Aidai -5
+ //Bakyt -5
+ //Joldosh -7
+
+ 
